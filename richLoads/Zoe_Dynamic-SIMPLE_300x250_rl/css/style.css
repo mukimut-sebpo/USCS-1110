@@ -1,0 +1,91 @@
+@font-face { font-family: brandon; src: url('BrandonGrotesque-Regular.otf'); } 
+@font-face { font-family: brandonbold; src: url('BrandonGrotesque-Bold.otf'); } 
+
+
+
+#main {
+    width: 300px;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    cursor: default;
+    position: absolute;
+}
+
+.hide {
+    opacity: 0;
+}
+
+#background, #product, #logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 250px;
+}
+
+#product {
+    z-index: 10
+}
+
+#logo {
+    z-index: 2;
+}
+
+#overlay {
+    position: absolute;
+    background-color: white;
+    left: 162px;
+    top: 4px;
+    width: 134px;
+    height: 242px;
+}
+
+#logospace {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 74px;
+    font-family: "brandon"
+}
+
+#headline {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-family: "brandon";
+    font-size: 15px;
+}
+
+#description {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-family: "brandon";
+    font-size: 11px;
+    line-height: 1em;
+}
+
+#cta {
+    position: absolute;
+    top: 120px;
+    padding: 7px 15px 7px 15px;
+    text-align: center;
+    line-height: 1em;
+    font-family: "brandonbold";
+    font-size: 10px;
+    color: white;   
+    white-space: nowrap;
+    letter-spacing: .05em;
+}
+
+.arrow {
+    margin: 0 0 0 2px;
+    font-size: 1.5em;
+}
